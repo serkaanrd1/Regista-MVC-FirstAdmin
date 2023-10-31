@@ -61,7 +61,7 @@ namespace RegistaMVC.ApiServices
             return response;
         }
 
-        public async  Task<t> PostData<t>(string requestUri, string jsonData)
+        public async  Task<T> PostData<T>(string requestUri, string jsonData)
         {
             T response = default(T);
 
